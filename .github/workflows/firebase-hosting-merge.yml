@@ -35,7 +35,8 @@ jobs:
       - name: Lint Typescript
         run: bun lint
 
-  build_and_deploy:
+  deploy_production:
+    needs: [build, lint]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
