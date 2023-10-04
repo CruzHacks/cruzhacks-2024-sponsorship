@@ -11,6 +11,9 @@ import "./index.scss"
 import Speakers from "./Speakers/index.view"
 import SpeakerProps from "../../Props/SpeakerProps/props"
 
+import PreviousHackathons from "./PreviousHackathons/index.view"
+import {PreviousHackathonProps} from "../../Props/PreviousHackathonProps/props"
+
 const Home: React.FC = () => (
   <>
     <Landing />
@@ -18,6 +21,7 @@ const Home: React.FC = () => (
       <HeroBlurb />
       <Tracks />
       <Milestones />
+      <PreviousHackathons hackathons={PreviousHackathonProps} />
       <Speakers speakerData={SpeakerProps} />
       <FAQs />
       <Sponsors />
