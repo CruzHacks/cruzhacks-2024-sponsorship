@@ -16,6 +16,7 @@ const Home: React.FC = () => (
     <Landing />
     <div className='home__container'>
       <HeroBlurb />
+      {/* sponsorship stuff */}
       <Tracks />
       <Milestones />
       <Speakers speakerData={SpeakerProps} />
