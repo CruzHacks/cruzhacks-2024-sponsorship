@@ -10,6 +10,8 @@ import BGwrapper from "./components/BGwrapper"
 import "./App.scss"
 import Team from "./views/Team/index.view"
 
+// fake change
+
 const App: React.FC = () => {
   return (
     <div className='app'>
