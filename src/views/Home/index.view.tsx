@@ -10,13 +10,14 @@ import Tracks from "./Tracks/index.view"
 import "./index.scss"
 import Speakers from "./Speakers/index.view"
 import SpeakerProps from "../../Props/SpeakerProps/props"
+import SupportSection from "./SupportSection/index.view"
 
 const Home: React.FC = () => (
   <>
     <Landing />
     <div className='home__container'>
       <HeroBlurb />
-      {/* sponsorship stuff */}
+      <SupportSection />
       <Tracks />
       <Milestones />
       <Speakers speakerData={SpeakerProps} />
