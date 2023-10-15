@@ -7,8 +7,8 @@ import Milestones from "./Milestones/index.view"
 import Tracks from "./Tracks/index.view"
 
 import "./index.scss"
-import Speakers from "./Speakers/index.view"
-import SpeakerProps from "../../Props/SpeakerProps/props"
+import PreviousHackathons from "./PreviousHackathons/index.view"
+import { PreviousHackathonProps } from "../../Props/PreviousHackathonProps/props"
 import SupportSection from "./SupportSection/index.view"
 
 const Home: React.FC = () => (
