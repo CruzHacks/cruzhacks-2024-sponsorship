@@ -1,5 +1,3 @@
-//import { PreviousHackathonData } from "../../components/PreviousHackathons"
-
 export interface PreviousHackathonData {
   name: string
   link: string

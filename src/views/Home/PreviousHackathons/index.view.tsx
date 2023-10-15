@@ -1,7 +1,4 @@
 import React, { useState } from "react"
-/*import SpeakerCard, {
-  SpeakerData,
-} from "../../../components/SpeakerCard/SpeakerCard"*/
 import { nanoid } from "nanoid"
 
 import "./index.scss"
