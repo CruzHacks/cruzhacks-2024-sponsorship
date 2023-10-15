@@ -46,17 +46,17 @@
         display: flex;
         justify-content: center;
         margin-top: 25px;
+
+        .ConnectButton{
+          background-color: #6F6FE8;
+          height: 48px;
+          width: 270px;
+          border: none;
+          border-radius: 12px;
+      
+          @include fonts.para;
+          color: white;
+      
+      }
     }
-}
-
-.ConnectButton{
-    background-color: #6F6FE8;
-    height: 48px;
-    width: 270px;
-    border: none;
-    border-radius: 12px;
-
-    @include fonts.para;
-    color: white;
-
 }

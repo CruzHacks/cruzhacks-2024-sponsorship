@@ -69,7 +69,9 @@ const Landing: React.FC = () => {
       </div>
       <div className='landing__container'>
         <div className='landing__container--title'>CRUZHACKS 2023</div>
-        <div className='landing__container--blurb'>         CruzHacks is the largest hackathon in Santa Cruz. Each year, we invite
+        <div className='landing__container--blurb'>
+          {" "}
+          CruzHacks is the largest hackathon in Santa Cruz. Each year, we invite
           hundreds of students to develop solutions to real-world problems,
           pursue inclusion in tech, and kindle the spirit of innovation.
         </div>
