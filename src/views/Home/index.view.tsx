@@ -10,7 +10,7 @@ import Tracks from "./Tracks/index.view"
 import "./index.scss"
 
 import PreviousHackathons from "./PreviousHackathons/index.view"
-import {PreviousHackathonProps} from "../../Props/PreviousHackathonProps/props"
+import { PreviousHackathonProps } from "../../Props/PreviousHackathonProps/props"
 
 const Home: React.FC = () => (
   <>

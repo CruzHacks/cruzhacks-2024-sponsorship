@@ -2,19 +2,21 @@ import React, { useState } from "react"
 /*import SpeakerCard, {
   SpeakerData,
 } from "../../../components/SpeakerCard/SpeakerCard"*/
-import { nanoid } from 'nanoid';
+import { nanoid } from "nanoid"
 
 import "./index.scss"
 import PreviousHackathon from "../../../components/PreviousHackathons"
 
-import { PreviousHackathonData } from '../../../Props/PreviousHackathonProps/props'; // Adjust the import path as needed
+import { PreviousHackathonData } from "../../../Props/PreviousHackathonProps/props" // Adjust the import path as needed
 
 interface PreviousHackathonsProps {
-  hackathons: PreviousHackathonData[];
+  hackathons: PreviousHackathonData[]
 }
 
-const PreviousHackathons: React.FC<PreviousHackathonsProps> = ({ hackathons }) => {
-  const [page, setPage] = useState<number>(0);
+const PreviousHackathons: React.FC<PreviousHackathonsProps> = ({
+  hackathons,
+}) => {
+  const [page, setPage] = useState<number>(0)
 
   return (
     <div className='speakers'>
@@ -33,21 +35,22 @@ const PreviousHackathons: React.FC<PreviousHackathonsProps> = ({ hackathons }) =
           <button
             className='speakers__container__left-button'
             onClick={() => {
-              page > 0 ? setPage(page - 1) : setPage(0);
+              page > 0 ? setPage(page - 1) : setPage(0)
             }}
           ></button>
           <button
             className='speakers__container__right-button'
             onClick={() => {
-              page < hackathons.length - 1 ? setPage(page + 1) : setPage(hackathons.length - 1);
+              page < hackathons.length - 1
+                ? setPage(page + 1)
+                : setPage(hackathons.length - 1)
             }}
           ></button>
         </div>
         <div className=''></div>
       </div>
     </div>
-  );
-};
-
+  )
+}
 
 export default PreviousHackathons
