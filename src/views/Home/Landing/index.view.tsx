@@ -70,7 +70,9 @@ const Landing: React.FC = () => {
       <div className='landing__container'>
         <div className='landing__container--title'>CRUZHACKS 2024</div>
         <div className='landing__container--blurb'>
-        CruzHacks is a non-profit, student-run annual hackathon at UC Santa Cruz. As one of the largest collegiate hackathons in the Bay Area, we welcome hundreds of students every year. 
+          CruzHacks is a non-profit, student-run annual hackathon at UC Santa
+          Cruz. As one of the largest collegiate hackathons in the Bay Area, we
+          welcome hundreds of students every year.
         </div>
         <div className='more-info'>
           <div className='date'>
@@ -107,7 +109,10 @@ const Landing: React.FC = () => {
             <button
               className={`landing__container--inputs__row2--button1${isLightClass()}`}
               onClick={() =>
-                window.open("https://docs.google.com/forms/d/e/1FAIpQLSeS9OmogTXhPD5yOoYAYuKbrBeseHIj3ePQIYbcLQy2lLUBaA/viewform?usp=sf_link", "_blank")
+                window.open(
+                  "https://docs.google.com/forms/d/e/1FAIpQLSeS9OmogTXhPD5yOoYAYuKbrBeseHIj3ePQIYbcLQy2lLUBaA/viewform?usp=sf_link",
+                  "_blank",
+                )
               }
             >
               Sponsor Us
