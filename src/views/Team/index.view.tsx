@@ -7,6 +7,7 @@ import "./index.scss"
 const Team: React.FC = () => {
   return (
     <div className='team__container'>
+      <p>TEST change</p>
       <About />
       <Members />
     </div>
